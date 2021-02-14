@@ -5,6 +5,7 @@ export type AVAILABLE_REGIONS =
     | "ap-southeast-2"
     | "ca-central-1"
     | "eu-west-1"
+    | "eu-central-1"
 
 /**
  * 8 KHz and 16 KHz
@@ -16,7 +17,7 @@ export type AVAILABLE_REGIONS =
  * French (fr-FR)
  * Canadian French (fr-CA)
  */
-export type LANGUAGES = "en-US" | "en-AU" | "en-GB" | "fr-CA" | "fr-FR" | "es-US"
+export type LANGUAGES = "af-ZA" | "ar-AE" | "ar-SA" | "cy-GB" | "da-DK" | "de-CH" | "de-DE" | "en-AB" | "en-AU" | "en-GB" | "en-IE" | "en-IN" | "en-US" | "en-WL" | "es-ES" | "es-US" | "fa-IR" | "fr-CA" | "fr-FR" | "ga-IE" | "gd-GB" | "he-IL" | "hi-IN" | "id-ID" | "it-IT" | "ja-JP" | "ko-KR" | "ms-MY" | "nl-NL" | "pt-BR" | "pt-PT" | "ru-RU" | "ta-IN" | "te-IN" | "tr-TR" | "zh-CN"
 
 export interface ClientConfig {
     accessKeyId?: string
